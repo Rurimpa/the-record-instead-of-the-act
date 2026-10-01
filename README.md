@@ -9,6 +9,24 @@ fabricated: the record is genuine, and the act is simply missing.
 
 日本語版：[README.ja.md](README.ja.md)
 
+## Use it now
+
+Paste this into your `CLAUDE.md` or `AGENTS.md`:
+
+```markdown
+## Before saying "done"
+- Before acting, write down what should exist afterwards (files, ledger entries, messages sent).
+- Before saying "done", check that list against what actually exists, not against your memory of what you did.
+- When another agent tells you it is done, ask it: "What did you advance? List what now exists."
+```
+
+Then:
+
+1. When you delegate a task or receive a handoff, ask the agent one closed question: **"What did you advance?"**
+2. Compare its answer with what actually exists (the file, the commit, the sent message).
+
+That is all. Why it works, and where it does not, is below.
+
 ---
 
 ## This is not hallucinated tool output
